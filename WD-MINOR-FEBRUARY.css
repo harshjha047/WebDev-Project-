@@ -1,0 +1,356 @@
+/* This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha. */
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::selection{
+    color: blueviolet;
+}
+header,.top,.down,.place,.box,.font,.frame,.frame h1,.box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+}
+header,.top,.frame h1,.frame,.place,.down,.font{
+    justify-content: center;
+    align-items: center;
+}
+body{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    position: absolute;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, rgb(234, 234, 238), rgb(243, 243, 245));
+    overflow-y: scroll;
+}
+.body::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  .body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgb(0, 0, 0); 
+  }
+   
+  /* Handle */
+  .body::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+  }
+  
+  /* Handle on hover */
+  .body::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+  }
+header{
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.151);
+    position: absolute;
+}
+.top{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #00010a;
+    flex-direction: column;
+    background-color: #000f2b;
+}
+.top h1{
+    font-size: 35vh;
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjIxNC1hZXctbmluZy0wMi13b3JsZGhlcml0YWdlXzIuanBn.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    line-height: -0.05em;
+}
+.top p{
+    width: 50%;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: center;
+}
+.text{
+    padding: 10px;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 25px;
+    font-weight: 600;
+}
+.down{
+    height: 50px;
+    flex-direction: column;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.places{
+    width: 78%;
+    height: 100vh;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+.places::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  .places::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0); 
+  }
+   
+  /* Handle */
+  .places::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0); 
+  }
+  
+  /* Handle on hover */
+  .places::-webkit-scrollbar-thumb:hover {
+    background: #b3000000; 
+  }
+  /* This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha. */
+aside{
+    width: 20%;
+    height: 95vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #dfdfdf;
+}
+.place-name{
+    height: 40px;
+    width: 95%;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    overflow: hidden;
+}
+.place-name:hover{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 99;
+    overflow: visible;
+}
+.box{
+    height: 60vh;
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.747);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-radius: 15px;
+}
+.image{
+    height: 55vh;
+    width: 49%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+img{
+    width: 200px ;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    margin-left: 200px;
+    border-radius: 4px;
+    z-index: 99;
+}
+#Red_Fort{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/961/859/615/newdelhi-redfort-landmark-sky-wallpaper-preview.jpg");
+}
+#Taj_Mahal{
+    background-image: url("https://admin.risingkashmir.com/Source/News/167e5188-d521-4d25-b35f-53afb111bd8d.jpg");
+}
+#Ajanta_and_Ellora_Caves{
+    background-image: url("https://www.shikhar.com/blog/wp-content/uploads/2017/04/4.jpg");
+}
+#Khajuraho_Temple{
+    background-image: url("https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1032564361_20200219140048.jpg");
+}
+#Gateway_of_India{
+    background-image: url("https://media.istockphoto.com/id/1307189136/photo/gateway-of-india-mumbai-maharashtra-monument-landmark-famous-place-magnificent-view-without.jpg?s=612x612&w=0&k=20&c=gGzzkXY5bAVbRbokzrjvkt7Ve-Z3yzSVN04NaMqyBB8=");/* This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha. */
+}
+#India_Gate{
+    background-image: url("https://images.unsplash.com/photo-1587474260584-136574528ed5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWElMjBnYXRlfGVufDB8fDB8fHww");
+}
+#Qutb_Minar{
+    background-image: url("https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2022/04/Qutub-Minar-Delhi.jpg?fit=1200%2C804&ssl=1");
+}
+#Hawa_Mahal{
+    background-image: url("https://media.istockphoto.com/id/481658071/photo/hawa-mahal-jaipur-india.jpg?s=612x612&w=0&k=20&c=Vzux4HM51dmApeYtsEXkh3p3mthMY41oRPlFCFEGW3s=");
+}
+#Mahabodhi_Temple{
+    background-image: url("https://www.trawell.in/admin/images/upload/004883325Bodhgaya_Mahabodhi_Temple_Main.jpg");
+}
+.font{
+height: 57vh;
+width: 47%;
+flex-direction: column;
+}
+.font h1{
+    width: 100%;
+    color: #130000;
+    text-align: center;
+    font-size: 7rem;
+}
+.Red_Fort h1,.Taj_Mahal h1,.India_Gate h1,.Hawa_Mahal h1,.Qutb_Minar h1{
+    font-size: 4.4rem;
+}
+.Ajanta_and_Ellora_Caves h1,.Gateway_of_India h1{
+    font-size: 2.3rem;
+}
+.Khajuraho_Temple h1,.Mahabodhi_Temple h1{
+    font-size: 2.8rem;
+}
+.font p{
+    font-weight: 600;
+    color: #1f1f1f;
+    text-align: center;
+}
+
+.frame{
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(1, 0, 7), rgb(1, 1, 26));
+}
+.frame h1{
+    height: 60vh;
+    width: 60%;
+    border-radius: 20px;
+}
+.btn{
+    padding: 6px;
+    background-color: rgba(0, 119, 255, 0.836);
+    border: 1px solid rgb(0, 162, 255);
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+@media only screen and (max-width: 750px) {
+    header{
+        background-color: rgba(0, 0, 0, 0);
+        color: #00000000;
+        font-size: 20px;
+    }
+    .box{
+        height: auto;
+        width: 95%;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 10px;
+    }
+    .place{
+        height: auto;
+    }
+    .image{
+        height: 33vh;
+        width: 100%;
+    }
+    .top h1{
+        font-size: 15vh;
+    }
+    .top p{
+        width: 80%;
+        font-size: 18px;
+    }
+    .Red_Fort h1,.Taj_Mahal h1,.India_Gate h1,.Hawa_Mahal h1,.Qutb_Minar h1{
+        font-size: 3.8rem;
+    }
+    .Ajanta_and_Ellora_Caves h1,.Gateway_of_India h1{
+        font-size: 2rem;
+    }
+    .Khajuraho_Temple h1,.Mahabodhi_Temple h1{
+        font-size: 2.5rem;
+    }
+    
+    .font{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        }
+        .font h1{
+            width: 100%;
+            color: #130000;
+            text-align: center;
+        }
+        .frame{
+            height: 100vh;
+            background: linear-gradient(45deg, rgb(1, 0, 7), rgb(1, 1, 26));
+        }
+        .frame h1{
+            height: 100vh;
+            width: 80%;
+            border-radius: 20px;
+            font-size: 5.5vh;
+        }
+        .back{
+            flex-direction: column-reverse;
+        }
+        aside{
+            width: 0%;
+            height: 0vh;
+            border-radius: 0px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #dfdfdf;
+          }
+          .page{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .places{
+            width: 100%;
+            height: auto;
+            border-radius: 0px;
+        }
+  }
+  /* This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha. */
