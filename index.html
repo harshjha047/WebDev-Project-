@@ -1,0 +1,410 @@
+<!-- This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="WD-MINOR-FEBRUARY.css">
+    <title>Historical Places In India</title>
+</head>
+<style>
+    /* This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha. */
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::selection{
+    color: blueviolet;
+}
+header,.top,.down,.place,.box,.font,.frame,.frame h1,.box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+}
+header,.top,.frame h1,.frame,.place,.down,.font{
+    justify-content: center;
+    align-items: center;
+}
+body{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    position: absolute;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, rgb(234, 234, 238), rgb(243, 243, 245));
+    overflow-y: scroll;
+}
+.body::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  .body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgb(0, 0, 0); 
+  }
+   
+  /* Handle */
+  .body::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+  }
+  
+  /* Handle on hover */
+  .body::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+  }
+header{
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.151);
+    position: absolute;
+}
+.info{
+    font-size: 13px;
+}
+.top{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #00010a;
+    flex-direction: column;
+    background-color: #000f2b;
+}
+.top h1{
+    font-size: 35vh;
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjIxNC1hZXctbmluZy0wMi13b3JsZGhlcml0YWdlXzIuanBn.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    line-height: -0.05em;
+}
+.top p{
+    width: 50%;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: center;
+}
+.text{
+    padding: 10px;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 25px;
+    font-weight: 600;
+}
+.down{
+    height: 50px;
+    flex-direction: column;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.places{
+    width: 78%;
+    height: 100vh;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+.places::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  .places::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0); 
+  }
+   
+  /* Handle */
+  .places::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0); 
+  }
+  
+  /* Handle on hover */
+  .places::-webkit-scrollbar-thumb:hover {
+    background: #b3000000; 
+  }
+  /* This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha. */
+aside{
+    width: 20%;
+    height: 95vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #dfdfdf;
+}
+.place-name{
+    height: 40px;
+    width: 95%;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    overflow: hidden;
+}
+.place-name:hover{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 99;
+    overflow: visible;
+}
+.box{
+    height: 60vh;
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.747);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-radius: 15px;
+}
+.image{
+    height: 55vh;
+    width: 49%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+img{
+    width: 200px ;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    margin-left: 200px;
+    border-radius: 4px;
+    z-index: 99;
+}
+#Red_Fort{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/961/859/615/newdelhi-redfort-landmark-sky-wallpaper-preview.jpg");
+}
+#Taj_Mahal{
+    background-image: url("https://admin.risingkashmir.com/Source/News/167e5188-d521-4d25-b35f-53afb111bd8d.jpg");
+}
+#Ajanta_and_Ellora_Caves{
+    background-image: url("https://www.shikhar.com/blog/wp-content/uploads/2017/04/4.jpg");
+}
+#Khajuraho_Temple{
+    background-image: url("https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1032564361_20200219140048.jpg");
+}
+#Gateway_of_India{
+    background-image: url("https://media.istockphoto.com/id/1307189136/photo/gateway-of-india-mumbai-maharashtra-monument-landmark-famous-place-magnificent-view-without.jpg?s=612x612&w=0&k=20&c=gGzzkXY5bAVbRbokzrjvkt7Ve-Z3yzSVN04NaMqyBB8=");/* This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha. */
+}
+#India_Gate{
+    background-image: url("https://images.unsplash.com/photo-1587474260584-136574528ed5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWElMjBnYXRlfGVufDB8fDB8fHww");
+}
+#Qutb_Minar{
+    background-image: url("https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2022/04/Qutub-Minar-Delhi.jpg?fit=1200%2C804&ssl=1");
+}
+#Hawa_Mahal{
+    background-image: url("https://media.istockphoto.com/id/481658071/photo/hawa-mahal-jaipur-india.jpg?s=612x612&w=0&k=20&c=Vzux4HM51dmApeYtsEXkh3p3mthMY41oRPlFCFEGW3s=");
+}
+#Mahabodhi_Temple{
+    background-image: url("https://www.trawell.in/admin/images/upload/004883325Bodhgaya_Mahabodhi_Temple_Main.jpg");
+}
+.font{
+height: 57vh;
+width: 47%;
+flex-direction: column;
+}
+.font h1{
+    width: 100%;
+    color: #130000;
+    text-align: center;
+    font-size: 7rem;
+}
+.Red_Fort h1,.Taj_Mahal h1,.India_Gate h1,.Hawa_Mahal h1,.Qutb_Minar h1{
+    font-size: 4.4rem;
+}
+.Ajanta_and_Ellora_Caves h1,.Gateway_of_India h1{
+    font-size: 2.3rem;
+}
+.Khajuraho_Temple h1,.Mahabodhi_Temple h1{
+    font-size: 2.8rem;
+}
+.font p{
+    font-weight: 600;
+    color: #1f1f1f;
+    text-align: center;
+}
+
+.frame{
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(1, 0, 7), rgb(1, 1, 26));
+}
+.frame h1{
+    height: 60vh;
+    width: 60%;
+    border-radius: 20px;
+}
+.btn{
+    padding: 6px;
+    background-color: rgba(0, 119, 255, 0.836);
+    border: 1px solid rgb(0, 162, 255);
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+@media only screen and (max-width: 750px) {
+    header{
+        background-color: rgba(0, 0, 0, 0);
+        color: #00000000;
+        font-size: 20px;
+    }
+    .box{
+        height: auto;
+        width: 95%;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 10px;
+    }
+    .place{
+        height: auto;
+    }
+    .image{
+        height: 33vh;
+        width: 100%;
+    }
+    .top h1{
+        font-size: 15vh;
+    }
+    .top p{
+        width: 80%;
+        font-size: 18px;
+    }
+    .Red_Fort h1,.Taj_Mahal h1,.India_Gate h1,.Hawa_Mahal h1,.Qutb_Minar h1{
+        font-size: 3.8rem;
+    }
+    .Ajanta_and_Ellora_Caves h1,.Gateway_of_India h1{
+        font-size: 2rem;
+    }
+    .Khajuraho_Temple h1,.Mahabodhi_Temple h1{
+        font-size: 2.5rem;
+    }
+    
+    .font{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        }
+        .font h1{
+            width: 100%;
+            color: #130000;
+            text-align: center;
+        }
+        .frame{
+            height: 100vh;
+            background: linear-gradient(45deg, rgb(1, 0, 7), rgb(1, 1, 26));
+        }
+        .frame h1{
+            height: 100vh;
+            width: 80%;
+            border-radius: 20px;
+            font-size: 5.5vh;
+        }
+        .back{
+            flex-direction: column-reverse;
+        }
+        aside{
+            width: 0%;
+            height: 0vh;
+            border-radius: 0px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #dfdfdf;
+          }
+          .page{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .places{
+            width: 100%;
+            height: auto;
+            border-radius: 0px;
+        }
+  }
+  /* This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha. */
+</style>
+<body>
+<div class="body">
+    <header><nav><h2>Historical Places In India</h2></nav></header>
+    <main>
+        <div class="top" id="Home"><h1>INDIA</h1><p>India, a land of rich culture and diverse landscapes, captivates with its bustling markets, ancient temples, and warm hospitality. Its timeless beauty resonates through resilience and vibrant traditions.</p><div class="text">Explore Indian Places</div><div class="down"><h5>Scroll down</h5><i class="fa-solid fa-chevron-down"></i></div></div><!-- This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha.-->
+       <div class="page">
+        <aside>
+            <P class="info">*click on name given below to know about it and get best look of page 2</P>
+            <a href="#Home" class="place-name"><h4>HOME</h4></a>
+            <a href="#1" class="place-name"><p>Red_Fort</p><img src="https://c4.wallpaperflare.com/wallpaper/961/859/615/newdelhi-redfort-landmark-sky-wallpaper-preview.jpg" alt="" srcset=""></a>
+            <a href="#2" class="place-name"><p>Taj_Mahal</p><img src="https://admin.risingkashmir.com/Source/News/167e5188-d521-4d25-b35f-53afb111bd8d.jpg" alt="" srcset=""></a>
+            <a href="#3" class="place-name"><p>Ajanta_and_Ellora_Caves</p><img src="https://www.shikhar.com/blog/wp-content/uploads/2017/04/4.jpg" alt="" srcset=""></a>
+            <a href="#4" class="place-name"><p>Khajuraho_Temple</p><img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1032564361_20200219140048.jpg" alt="" srcset=""></a>
+            <a href="#5" class="place-name"><p>Gateway_of_India</p><img src="https://media.istockphoto.com/id/1307189136/photo/gateway-of-india-mumbai-maharashtra-monument-landmark-famous-place-magnificent-view-without.jpg?s=612x612&w=0&k=20&c=gGzzkXY5bAVbRbokzrjvkt7Ve-Z3yzSVN04NaMqyBB8=" alt="" srcset=""></a><!-- This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha.-->
+            <a href="#6" class="place-name"><p>India_Gate</p><img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWElMjBnYXRlfGVufDB8fDB8fHww" alt="" srcset=""></a>
+            <a href="#7" class="place-name"><p>Qutb_Minar</p><img src="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2022/04/Qutub-Minar-Delhi.jpg?fit=1200%2C804&ssl=1" alt="" srcset=""></a>
+            <a href="#8" class="place-name"><p>Mahabodhi_Temple</p><img src="https://www.trawell.in/admin/images/upload/004883325Bodhgaya_Mahabodhi_Temple_Main.jpg" alt="" srcset=""></a>
+            <a href="#9" class="place-name"><p>Hawa_Mahal</p><img src="https://media.istockphoto.com/id/481658071/photo/hawa-mahal-jaipur-india.jpg?s=612x612&w=0&k=20&c=Vzux4HM51dmApeYtsEXkh3p3mthMY41oRPlFCFEGW3s=" alt="" srcset=""></a>
+            <a href="#Footer" class="place-name"><h4>Footer</h4></a>
+        </aside>
+        <div class="places">
+        <div class="place" id="1"><a href="https://en.wikipedia.org/wiki/Red_Fort" class="box" ><div class="image" id="Red_Fort"></div><div class="font Red_Fort"><h1>Red Fort</h1><p>The majestic Red Fort, a UNESCO World Heritage site in Delhi, India, mesmerizes with its grand Mughal architecture, intricate detailing, vibrant red sandstone, and rich historical significance.<br><br> <button class="btn">Read more</button></p></div></a></div>
+        <div class="place" id="2"><a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="box back" ><div class="font Taj_Mahal"><h1>Taj Mahal</h1><p>The Taj Mahal, a symbol of eternal love, boasts exquisite architecture and serene gardens. Its pristine marble gleams in sunlight, captivating visitors with its timeless beauty and romantic allure.<br><br><button class="btn">Read more</button></p></div><div class="image" id="Taj_Mahal"></div></a></div>
+        <div class="place" id="3"><a href="https://en.wikipedia.org/wiki/Ajanta_and_Ellora_Caves" class="box" ><div class="image" id="Ajanta_and_Ellora_Caves"></div><div class="font Ajanta_and_Ellora_Caves"><h1>Ajanta and Ellora Caves</h1><p>The Ajanta and Ellora Caves, masterpieces of ancient Indian art, mesmerize with intricately carved sculptures and stunning frescoes, showcasing the rich cultural and artistic heritage of India's past.<br><br><button class="btn">Read more</button></p></div></a></div><!-- This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha.-->
+        <div class="place" id="4"><a href="https://en.wikipedia.org/wiki/Khajuraho_Temple" class="box back" ><div class="font Khajuraho_Temple"><h1>Khajuraho Temple</h1><p>The Khajuraho Temples, a UNESCO World Heritage site, captivate with intricate carvings depicting human emotions, spirituality, and sensuality, showcasing the exquisite blend of art, culture, and history.<br><br><button class="btn">Read more</button></p></div><div class="image" id="Khajuraho_Temple"></div></a></div>
+        <div class="place" id="5"><a href="https://en.wikipedia.org/wiki/Gateway_of_India," class="box" ><div class="image" id="Gateway_of_India"></div><div class="font Gateway_of_India"><h1>Gateway of India</h1><p>Standing majestically in Mumbai, the Gateway of India captivates with its grand arch, overlooking the Arabian Sea. Symbolizing history and elegance, it beckons visitors with its timeless allure and captivating charm.<br><br><button class="btn">Read more</button></p></div></a></div>
+        <div class="place" id="6"><a href="https://en.wikipedia.org/wiki/India_Gate" class="box back" ><div class="font India_Gate"><h1>India Gate</h1><p>Standing tall in Delhi, India Gate is a symbol of national pride and sacrifice. Its majestic arch, surrounded by lush greenery, honors the valor of Indian soldiers, making it a cherished landmark of unity and remembrance.<br><br><button class="btn">Read more</button></p></div><div class="image" id="India_Gate"></div></a></div>
+        <div class="place" id="7"><a href="https://en.wikipedia.org/wiki/Qutb_Minar" class="box" ><div class="image" id="Qutb_Minar"></div><div class="font Qutb_Minar"><h1>Qutb Minar</h1><p>Qutub Minar, a UNESCO World Heritage Site in Delhi, India, stands tall as a testament to Mughal architecture. Its intricate carvings and towering height evoke awe and reverence, reflecting India's rich history and cultural grandeur.<br><br><button class="btn">Read more</button></p></div></a></div>
+        <div class="place" id="8"><a href="https://en.wikipedia.org/wiki/Mahabodhi_Temple" class="box back" ><div class="font Mahabodhi_Temple"><h1>Mahabodhi Temple</h1><p>The Mahabodhi Temple, a UNESCO World Heritage Site in Bodh Gaya, India, exudes serene beauty with its ancient architecture, sacred Bodhi Tree, and spiritual ambiance, marking the site of Lord Buddha's enlightenment.<br><br><button class="btn">Read more</button></p></div><div class="image" id="Mahabodhi_Temple"></div></a></div>
+        <div class="place" id="9"><a href="https://en.wikipedia.org/wiki/Hawa_Mahal" class="box" ><div class="image" id="Hawa_Mahal"></div><div class="font Hawa_Mahal"><h1>Hawa Mahal</h1><p>The Hawa Mahal, with its intricate pink sandstone façade, stands as a testament to Rajasthan's rich architectural heritage. Its latticed windows allow cool breezes to flow, creating a mesmerizing blend of beauty and functionality. <br><br><button class="btn">Read more</button></p></div></a></div>
+       </div>
+    </div>
+</main>
+
+    <footer><div class="frame" id="Footer"><h1>Designed And Developed By Harsh Jha.</h1></div></footer>
+</div>
+</body>
+</html>
+<!-- This WD-MINOR-FEBRUARY Webpage Is Designed And Developed By Harsh Jha.-->
